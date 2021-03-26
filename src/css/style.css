@@ -308,7 +308,8 @@ pre {
   .cli .grid,
   .cloud .grid,
   .features-main .grid,
-  .docs-main .grid {
+  .docs-main .grid,
+  .footer .grid {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
   }
@@ -318,7 +319,11 @@ pre {
   .showcase-text {
     text-align: center;
     margin-top: 40px;
-    animation: slideInFromTop 1s ease-in;
+    animation: slideInFromBottom 1s ease-in;
+  }
+  .showcase-text p {
+    text-align: center;
+    padding: 40px;
   }
   .showcase-form {
     justify-self: center;

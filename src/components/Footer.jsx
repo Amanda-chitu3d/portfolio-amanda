@@ -4,7 +4,7 @@ import {SocialIcon} from "react-social-icons";
 
 const Footer = () => {
     return ( 
-            <footer class="footer bg-dark py-5">
+            <footer class="footer grid bg-dark py-5">
             <div className="container grid grid-3">
                 <div>
                 <p>Copyright &copy; 2021 Amanda Portfolio. All Rights Reserved.

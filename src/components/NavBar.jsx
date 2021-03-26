@@ -4,7 +4,7 @@ import {NavLink} from "react-router-dom";
 export default function NavBar() {
     return (
         <header className="bg-green-900">
-            <div className="container mx-auto flex justify-between">
+            <div className="navbar container mx-auto flex justify-between">
                 <nav className="flex">
                 <NavLink to="/" exact 
                 activeClassName="text-white"
