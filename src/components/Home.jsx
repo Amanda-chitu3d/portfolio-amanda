@@ -7,6 +7,8 @@ import languageSwift from "../image/swift.jpg";
 import languageJava from "../image/programming-language-java.png";
 import languageJS from "../image/javascript-programming-language.png";
 import languageNode from "../image/node-js-512-100x100.png";
+import homeCloud2 from "../image/cloud-2-300x300.png";
+import homeCloud from "../image/cloud-300.png";
 
 
 export default function Home() {
@@ -77,7 +79,7 @@ export default function Home() {
     </section>
     <section class="cli">
        <div class="container grid">
-           <img src="../images/cloud-2-300x300.png" alt="" />
+           <img src={homeCloud2} alt="" />
            <div class="card">
                <h3>Easy to use, cross platform CLI</h3>
            </div>
@@ -95,7 +97,7 @@ export default function Home() {
                 </p>
                 <Link to="/feature" class="btn btn-dark">Read More</Link>
             </div>
-            <img src="../images/cloud-300.png" alt="" />
+            <img src={homeCloud} alt="" />
         </div>
     </section>
     <section class="languages">

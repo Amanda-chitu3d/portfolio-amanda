@@ -1,4 +1,6 @@
 import React from 'react';
+import cloudSystem from "../image/cloud-system-300.png";
+import homeCloud2 from "../image/cloud-2-300x300.png";
 import '../css/style.css';
 import '../css/utilities.css';
 
@@ -14,7 +16,7 @@ function Feature() {
                     Check out the features of FalconWin that 
                     separate us from the competition
                 </p>
-            <img src="../images/cloud-system-300.png" alt="" />
+            <img src={cloudSystem} alt="" />
             </div>
         </div>
     </section>
@@ -26,7 +28,7 @@ function Feature() {
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, nobis molestias consequuntur aperiam porro ab labore obcaecati deleniti, eius magni ea. Provident commodi officiis cumque. Fuga voluptatum ducimus adipisci dolore.
                 </p>
             </div>
-            <img src="../images/cloud-2-300x300.png" alt="" />
+            <img src={homeCloud2} alt="" />
         </div>
     </section>
 

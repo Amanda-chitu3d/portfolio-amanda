@@ -1,5 +1,6 @@
 import React from 'react';
 import {Link} from "react-router-dom";
+import serverPic from "../image/server-300x300.png";
 import '../css/style.css';
 import '../css/utilities.css';
 
@@ -16,7 +17,7 @@ function Docs() {
                 </p>
             </div>
             <div>
-                <img src="../images/doc348.png" alt=""/>
+                <img src={serverPic} alt=""/>
             </div>
         </div>
     </section>
