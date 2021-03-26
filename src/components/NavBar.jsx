@@ -8,7 +8,7 @@ export default function NavBar() {
                 <nav className="flex">
                 <NavLink to="/" exact 
                 activeClassName="text-white"
-                className="inline-flex items-center py-4 px-3 mr-6 text-blue-100 hover:text-blue-300 text-4xl font-bold cursive tracking-widest"
+                className="logo inline-flex items-center py-4 px-3 mr-6 text-blue-100 hover:text-blue-300 text-4xl font-bold cursive tracking-widest"
                 >FalconWin</NavLink>
                 <NavLink to="/" exact 
                 className="inline-flex items-center py-3 px-3 mr-6 rounded text-blue-200 hover:text-blue-300"
