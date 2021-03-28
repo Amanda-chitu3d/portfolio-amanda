@@ -14,6 +14,10 @@ export default function NavBar() {
                 className="inline-flex items-center py-3 px-3 mr-6 rounded text-blue-200 hover:text-blue-300"
                 activeClassName="text-blue-100 bg-blue-700"
                 >Home</NavLink>
+                <NavLink to="/services" 
+                className="inline-flex items-center py-3 px-3 mr-6 rounded text-blue-200 hover:text-blue-300"
+                activeClassName="text-blue-100 bg-blue-700"
+                >Services</NavLink>
                 {/* <NavLink to="/post" 
                 className="inline-flex items-center py-3 px-3 mr-6 rounded text-blue-200 hover:text-blue-300"
                 activeClassName="text-blue-100 bg-blue-700"

@@ -1,10 +1,10 @@
 import{ BrowserRouter, Route, Switch} from "react-router-dom";
 import Home from './components/Home';
-import About from './components/About';
+import About2 from './page/About2';
 // import Post from './components/Post';
 import Project from './components/Project';
 import SinglePost from './components/SinglePost';
-import NavBar from './components/NavBar';
+import NavBar2 from './components/NavBar2';
 import Footer from './components/Footer';
 import FeedForm from './components/FeedForm';
 import FAQs from './components/FAQs';
@@ -12,15 +12,17 @@ import TermOfService from './components/TermOfService';
 import PrivacyPolicy from './components/PrivacyPolicy';
 import Docs from './components/Docs';
 import Feature from './components/Feature';
+import Services from './page/Services';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
     <BrowserRouter>
-    <NavBar />
+    <NavBar2 />
     <Switch>
       <Route>
         <Route component={Home} path="/" exact />
-        <Route component={About} path="/about"  />
+        <Route component={About2} path="/about"  />
         <Route component={SinglePost} path="/post/:slug" />
         {/* <Route component={Post} path="/post" /> */}
         <Route component={Project} path="/project" />
@@ -30,6 +32,7 @@ function App() {
         <Route component={FeedForm} path="/static/feedform" />
         <Route component={Docs} path="/docs" />
         <Route component={Feature} path="/feature" />
+        <Route path="/services"><Services/></Route>
         
       </Route>
     </Switch>

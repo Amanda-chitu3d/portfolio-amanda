@@ -1,44 +1,30 @@
 import React from 'react';
 import {NavLink} from "react-router-dom";
 import {SocialIcon} from "react-social-icons";
+import logo from "../image/logo-pen.png";
+
 import '../css/style.css';
 import '../css/utilities.css';
 
 function NavBar2() {
     return (
         <div>
-             <header className="container mx-auto flex justify-between">
-             <nav className="navbar">
+             <nav className="navbar mx-auto flex justify-between">
             {/* <div className="container mx-auto flex justify-between"> */}
-                
-                <NavLink to="/" exact 
-                activeClassName="text-white"
-                className="logo"
-                >Amanda</NavLink>
-                <NavLink to="/post" 
-                className="navbarInactive"
-                activeClassName="navbarActive"
-                >Post</NavLink>
+            <NavLink className="navbar-brand" to="/"> <img className="logo" src={logo} alt="Navbar"/></NavLink>
+                <NavLink to="/" exact
+                >Home</NavLink>
+                <NavLink to="/services" 
+                >Services</NavLink>
                 <NavLink to="/project" 
-                className="navbarInactive"
-                activeClassName="navbarActive"
                 >Projects</NavLink>
                 <NavLink to="/feature" 
-                className="navbarInactive"
-                activeClassName="navbarActive"
                 >Features</NavLink>
                 <NavLink to="/docs" 
-                className="navbarInactive"
-                activeClassName="navbarActive"
                 >Docs</NavLink>
                 <NavLink to="/about" 
-                className="navbarInactive"
-                activeClassName="navbarActive"
                 >About Me</NavLink>
-                {/* </div> */}
-                </nav>
-
-                
+               
                 <div className="inline-flex py-3 px-3 my-6">
                     <SocialIcon url="https://twitter.com/mimifeelee?lang=en" 
                     className="mr-4" target="_blank" fgColor="#fff" style={{height:35,width:35}}/>
@@ -50,9 +36,7 @@ function NavBar2() {
                     className="mr-4" target="_blank" fgColor="#fff" style={{height:35,width:35}}/>
                     
                 </div>
-                
-            
-        </header>
+                </nav>
             
         </div>
     )
