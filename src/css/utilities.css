@@ -17,8 +17,8 @@
   display: inline-block;
   padding: 10px 30px;
   cursor: pointer;
-  background-color: var(--primary-color);
-  color: #fff;
+  background-color: var(--primary-color) !important;
+  color: #fff !important;
   border: none;
   border-radius: 5px;
 }

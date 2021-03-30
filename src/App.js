@@ -14,6 +14,8 @@ import Docs from './components/Docs';
 import Feature from './components/Feature';
 import Services from './page/Services';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import "./css/utilities.css";
+import "./css/style.css";
 
 function App() {
   return (
@@ -33,7 +35,6 @@ function App() {
         <Route component={Docs} path="/docs" />
         <Route component={Feature} path="/feature" />
         <Route path="/services"><Services/></Route>
-        
       </Route>
     </Switch>
     <Footer />

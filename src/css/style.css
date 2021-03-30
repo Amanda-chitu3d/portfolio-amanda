@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
 :root {
-  --primary-color: #3388d8;
+  --primary-color: #2a6599;
   --secondary-color: #61b7e9;
   --hover-color: #f1b24a;
   --dark-color: #153672;
@@ -95,7 +95,9 @@ pre {
   height: 5rem;
   margin-left: 0;
 }
-
+.navbar-brand {
+  border: 0;
+}
 /*  showcase */
 .showcase {
   margin: 0px;

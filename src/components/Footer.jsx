@@ -10,16 +10,6 @@ const Footer = () => {
                 <p>Copyright &copy; 2021 Amanda Portfolio. All Rights Reserved.
                 </p>
                 </div>
-
-            {/* <div className="flex mx-auto justify-between">
-                <Link to="/static/term-of-service" className="inline-flex items-center py-1 px-1 mr-1 rounded text-red-200 hover:text-green-800"
-                activeClassName="text-red-100 bg-red-700">Term Of Service</Link>
-                <Link to="/static/policy" className="inline-flex items-center py-1 px-1 mr-1 rounded text-red-200 hover:text-green-800" activeClassName="text-red-100 bg-red-700">Privacy Policy</Link>
-                <Link to="/static/feedform" className="inline-flex items-center py-1 px-1 mr-1 rounded text-red-200 hover:text-green-800" activeClassName="text-red-100 bg-red-700">Feed Form</Link>
-                <Link to="/static/faq" className="inline-flex items-center py-1 px-1 mr-1 rounded text-red-200 hover:text-green-800" activeClassName="text-red-100 bg-red-700">FAQs</Link>
-            </div> */}
-       
-                    
             <div className="footerTerm flex">
             <Link to="/static/term-of-service"> Term Of Service </Link>
             <Link to="/static/policy"> Private Policy </Link>
